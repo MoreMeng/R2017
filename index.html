@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OnlineMarket</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="asset/bootswatch/darkly/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<style>
+.jumbotron {
+    background-color: rgba(0,0,0,.4);
+}
+.jumbotron .col-md-2 {
+    margin-top: 20px;
+}
+.jumbotron .col-md-2 .btn-block {
+    padding-top:15px;
+    min-height: 60px;
+}
+.blur {
+    -webkit-filter: blur(35px);
+    -moz-filter: blur(35px);
+    -o-filter: blur(35px);
+    -ms-filter: blur(35px);
+    filter: blur(35px);
+}
+#bg {
+    transition: all 1s ease-out;
+    position: fixed;
+    background: no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0;
+    width: 110%;
+    height: 110%;
+    top: -5%;
+    left: -5%;
+}
+.btn {
+    -webkit-transform:scale(1.0);
+    /* Browser Variations: */
+    -moz-transform:scale(1.0);
+    -o-transform:scale(1.0);
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+}
+.btn:hover {
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.4);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+}
+.btn-warning {
+    color: #ffffff;
+    background: none;
+    border-color: #f39c12;
+}
+</style>
+</head>
+<body>
+    <div id="bg"></div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><i class="fa fa-shopping-basket"></i> OnlineMarket</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://moremeng.dv4.biz/">Example</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Select Team <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/2017/team1/">Team 1</a></li>
+                            <li><a href="/2017/team2/">Team 2</a></li>
+                            <li><a href="/2017/team3/">Team 3</a></li>
+                            <li><a href="/2017/team4/">Team 4</a></li>
+                            <li><a href="/2017/team5/">Team 5</a></li>
+                            <li><a href="/2017/team6/">Team 6</a></li>
+                            <li><a href="/2017/team7/">Team 7</a></li>
+                            <li><a href="/2017/team8/">Team 8</a></li>
+                            <li><a href="/2017/team9/">Team 9</a></li>
+                            <li><a href="/2017/team10/">Team 10</a></li>
+                            <li><a href="/2017/team11/">Team 11</a></li>
+                            <li><a href="/2017/team12/">Team 12</a></li>
+                            <li><a href="/2017/team13/">Team 13</a></li>
+                            <li><a href="/2017/team14/">Team 14</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+
+                <h2 class="text-center">Select your team.</h2>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team1/" class="btn btn-large btn-block btn-warning">TEAM 1</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team2/" class="btn btn-large btn-block btn-warning">TEAM 2</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team3/" class="btn btn-large btn-block btn-warning">TEAM 3</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team4/" class="btn btn-large btn-block btn-warning">TEAM 4</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team5/" class="btn btn-large btn-block btn-warning">TEAM 5</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team6/" class="btn btn-large btn-block btn-warning">TEAM 6</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team7/" class="btn btn-large btn-block btn-warning">TEAM 7</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team8/" class="btn btn-large btn-block btn-warning">TEAM 8</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team9/" class="btn btn-large btn-block btn-warning">TEAM 9</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team10/" class="btn btn-large btn-block btn-warning">TEAM 10</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team11/" class="btn btn-large btn-block btn-warning">TEAM 11</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team12/" class="btn btn-large btn-block btn-warning">TEAM 12</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team13/" class="btn btn-large btn-block btn-warning">TEAM 13</a>
+                </div>
+                <div  class="col-md-2 col-sm-4 col-xs-6">
+                    <a href="/2017/team14/" class="btn btn-large btn-block btn-warning">TEAM 14</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- jQuery -->
+    <script src="asset/jquery/dist/jquery.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="asset/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script>
+        $(function(){
+            getFadeBackground();
+
+            $('.tt').tooltip();
+
+
+            $('.btn').hover( function(){
+                $('#bg').toggleClass('blur');
+            });
+
+        });
+        function getFadeBackground(){
+            $('#bg').css('background-image', 'url(https://source.unsplash.com/random)').animate({ opacity: 1 }, 1000);
+        }
+    </script>
+</body>
+</html>
